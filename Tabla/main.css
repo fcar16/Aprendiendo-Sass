@@ -1,0 +1,61 @@
+table {
+  border-radius: 50px;
+  border: 50px;
+  border-color: black;
+}
+.h1 {
+  font-size: 10px;
+}
+
+.h2 {
+  font-size: 20px;
+}
+
+.h3 {
+  font-size: 30px;
+}
+
+.h4 {
+  font-size: 40px;
+}
+
+.h5 {
+  font-size: 50px;
+}
+
+.h6 {
+  font-size: 60px;
+}
+
+.container {
+  background-color: white;
+  margin: 100px auto;
+  width: 1280px;
+  padding: 20px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+  background-size: 100px;
+}
+
+.table-Primera {
+  background-color: green;
+}
+.table-Programacion {
+  background-color: red;
+}
+.table-BBDD {
+  background-color: purple;
+}
+.table-Entornos {
+  background-color: blue;
+}
+.table-Sistemas {
+  background-color: yellow;
+}
+.table-Fol {
+  background-color: rgb(158, 157, 157);
+}
+.table-Lenguaje {
+  background-color: orange;
+}
+
+/*# sourceMappingURL=main.css.map */

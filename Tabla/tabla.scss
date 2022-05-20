@@ -1,0 +1,72 @@
+
+$id:0;
+
+
+
+table{
+    border-radius: 50px;
+    border: 50px;
+    border-color: black;
+    tr{
+    }
+}
+
+@for $i from 1 through 6{
+    .h#{$i}{
+        font-size: 10px * $i;
+    }
+
+}
+
+@function calcularAnchura(){
+
+}
+@mixin table( $name,$color) {
+    &-#{$name}{
+        background-color: $color;
+    }
+    
+}
+
+@if($id == 0){
+    $colors:'Primera' green, 'Programacion' red,'BBDD' purple,'Entornos' blue,'Sistemas' yellow,'Fol' rgb(158, 157, 157), 'Lenguaje' orange;
+    .container{
+        background-color: white;
+        margin: 100px auto;
+        width: 1280px;
+        padding: 20px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.6);
+        background-size: 100px;
+    }
+    
+
+    
+    .table{
+        @each $name, $color in $colors {
+             @include table($name, $color);
+        }
+    }
+}
+@if($id == 1) {
+    $colors:'Primera' rgb(0, 58, 0), 'Programacion' rgb(65, 3, 3),'BBDD' rgb(49, 2, 49),'Entornos' rgb(0, 0, 43),'Sistemas' rgb(31, 31, 1),'Fol' rgb(32, 32, 32), 'Lenguaje' rgb(53, 35, 3);
+    .container{
+        background-color: black;
+        margin: 100px auto;
+        width: 1280px;
+        padding: 20px;
+        box-shadow: 0 0 20px 2px rgba(0,0,0,0.6);
+        background-size: 100px;
+    }
+    
+    
+    .table{
+        @each $name, $color in $colors {
+             @include table($name, $color);
+        }
+    }
+} 
+
+
+
+
+
