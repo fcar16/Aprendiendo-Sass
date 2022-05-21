@@ -1,0 +1,6 @@
+@mixin table( $name,$color) {
+    &-#{$name}{
+        background-color: $color;
+    }
+    
+}

@@ -1,8 +1,3 @@
-table {
-  border-radius: 50px;
-  border: 50px;
-  border-color: black;
-}
 .h1 {
   font-size: 10px;
 }
@@ -56,6 +51,12 @@ table {
 }
 .table-Lenguaje {
   background-color: orange;
+}
+
+table {
+  border-radius: 50px;
+  border: 50px;
+  border-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */
